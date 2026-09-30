@@ -1,0 +1,1 @@
+When the source of the received message does not match the source of the sent message, the receiver waits for the expected message. Since the expected message never arrives, the program blocks and may result in a deadlock.
